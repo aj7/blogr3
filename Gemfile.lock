@@ -52,7 +52,12 @@ GEM
     configuration (1.1.0)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    haml-edge (3.1.79)
+    haml (3.0.22)
+    haml-rails (0.3.4)
+      actionpack (~> 3.0)
+      activesupport (~> 3.0)
+      haml (~> 3.0)
+      railties (~> 3.0)
     heroku (1.12.1)
       json_pure (>= 1.2.0, < 1.5.0)
       launchy (~> 0.3.2)
@@ -100,7 +105,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  haml-edge
+  haml
+  haml-rails
   heroku
   mocha
   nifty-generators

@@ -7,6 +7,9 @@ gem 'rails', :git => 'git://github.com/rails/rails.git', :branch => '3-0-stable'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
+gem 'haml'
+gem 'haml-rails'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -25,7 +28,6 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 #using nifty-generators 
 gem "nifty-generators"
 #getting haml instead of erb
-gem 'haml-edge'
 
 gem 'heroku'
 gem 'taps'
