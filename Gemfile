@@ -27,6 +27,9 @@ gem "nifty-generators"
 #getting haml instead of erb
 gem 'haml-edge'
 
+gem 'heroku'
+gem 'taps'
+
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:

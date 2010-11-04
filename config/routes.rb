@@ -1,5 +1,7 @@
 Blogr3::Application.routes.draw do
   resources :comments
+  
+  root :to => "comments#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
